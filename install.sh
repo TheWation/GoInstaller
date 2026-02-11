@@ -13,7 +13,7 @@ set -euo pipefail
 # ── Configuration ────────────────────────────────────────────
 GO_VERSION="${GO_VERSION:-1.26.0}"
 INSTALL_DIR="${INSTALL_DIR:-/usr/local}"
-REPO_BASE_URL="https://raw.githubusercontent.com/TheWation/GoInstaller/main/releases"
+REPO_BASE_URL="https://raw.githubusercontent.com/TheWation/GoInstaller/master/releases"
 
 # ── Colors ───────────────────────────────────────────────────
 RED='\033[0;31m'

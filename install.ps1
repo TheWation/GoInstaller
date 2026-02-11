@@ -18,7 +18,7 @@ param (
 $ErrorActionPreference = "Stop"
 
 # ── Configuration ────────────────────────────────────────────
-$RepoBaseUrl = "https://raw.githubusercontent.com/TheWation/GoInstaller/main/releases"
+$RepoBaseUrl = "https://raw.githubusercontent.com/TheWation/GoInstaller/master/releases"
 
 # ── Functions ────────────────────────────────────────────────
 function Write-Info    { param($msg) Write-Host "[INFO]  $msg" -ForegroundColor Cyan }
