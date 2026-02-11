@@ -24,31 +24,31 @@ We mirror official Go release binaries in the [releases](./releases/) folder of 
 ### Linux / macOS (amd64)
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/TheWation/GoInstaller/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/TheWation/GoInstaller/master/install.sh | bash
 ```
 
 Or using `wget`:
 
 ```bash
-wget -qO- https://raw.githubusercontent.com/TheWation/GoInstaller/main/install.sh | bash
+wget -qO- https://raw.githubusercontent.com/TheWation/GoInstaller/master/install.sh | bash
 ```
 
 **Manual one-liner** (downloads from this repo's releases folder and installs):
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/TheWation/GoInstaller/main/releases/go1.26.0.linux-amd64.tar.gz | sudo tar -C /usr/local -xzf - && echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.profile && source ~/.profile && go version
+curl -fsSL https://raw.githubusercontent.com/TheWation/GoInstaller/master/releases/go1.26.0.linux-amd64.tar.gz | sudo tar -C /usr/local -xzf - && echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.profile && source ~/.profile && go version
 ```
 
 ### Windows (PowerShell — Run as Administrator)
 
 ```powershell
-irm https://raw.githubusercontent.com/TheWation/GoInstaller/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/TheWation/GoInstaller/master/install.ps1 | iex
 ```
 
 **Manual one-liner** (PowerShell — Run as Administrator):
 
 ```powershell
-$env:GOZIP="$env:TEMP\go.zip"; Invoke-WebRequest -Uri "https://raw.githubusercontent.com/TheWation/GoInstaller/main/releases/go1.26.0.windows-amd64.zip" -OutFile $env:GOZIP; Expand-Archive -Path $env:GOZIP -DestinationPath "C:\Program Files" -Force; [Environment]::SetEnvironmentVariable("Path", $env:Path + ";C:\Program Files\Go\bin", "Machine"); $env:Path += ";C:\Program Files\Go\bin"; Remove-Item $env:GOZIP; go version
+$env:GOZIP="$env:TEMP\go.zip"; Invoke-WebRequest -Uri "https://raw.githubusercontent.com/TheWation/GoInstaller/master/releases/go1.26.0.windows-amd64.zip" -OutFile $env:GOZIP; Expand-Archive -Path $env:GOZIP -DestinationPath "C:\Program Files" -Force; [Environment]::SetEnvironmentVariable("Path", $env:Path + ";C:\Program Files\Go\bin", "Machine"); $env:Path += ";C:\Program Files\Go\bin"; Remove-Item $env:GOZIP; go version
 ```
 
 ---
@@ -60,7 +60,7 @@ $env:GOZIP="$env:TEMP\go.zip"; Invoke-WebRequest -Uri "https://raw.githubusercon
 1. **Download** the archive from this repository:
 
    ```bash
-   curl -fsSLO https://raw.githubusercontent.com/TheWation/GoInstaller/main/releases/go1.26.0.linux-amd64.tar.gz
+   curl -fsSLO https://raw.githubusercontent.com/TheWation/GoInstaller/master/releases/go1.26.0.linux-amd64.tar.gz
    ```
 
 2. **Remove any previous Go installation** and extract the archive:
@@ -93,7 +93,7 @@ $env:GOZIP="$env:TEMP\go.zip"; Invoke-WebRequest -Uri "https://raw.githubusercon
 1. **Download** the zip from this repository (PowerShell):
 
    ```powershell
-   Invoke-WebRequest -Uri "https://raw.githubusercontent.com/TheWation/GoInstaller/main/releases/go1.26.0.windows-amd64.zip" -OutFile "$env:TEMP\go.zip"
+   Invoke-WebRequest -Uri "https://raw.githubusercontent.com/TheWation/GoInstaller/master/releases/go1.26.0.windows-amd64.zip" -OutFile "$env:TEMP\go.zip"
    ```
 
 2. **Remove any previous Go installation** and extract:
@@ -120,7 +120,7 @@ $env:GOZIP="$env:TEMP\go.zip"; Invoke-WebRequest -Uri "https://raw.githubusercon
 1. **Download** the archive:
 
    ```bash
-   curl -fsSLO https://raw.githubusercontent.com/TheWation/GoInstaller/main/releases/go1.26.0.darwin-arm64.tar.gz
+   curl -fsSLO https://raw.githubusercontent.com/TheWation/GoInstaller/master/releases/go1.26.0.darwin-arm64.tar.gz
    ```
 
    > Use `darwin-amd64` for Intel Macs.
