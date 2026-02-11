@@ -4,8 +4,8 @@
 #  Mirrors: github.com/TheWation/GoInstaller
 #
 #  Usage:
-#    curl -fsSL https://raw.githubusercontent.com/TheWation/GoInstaller/main/install.sh | bash
-#    wget -qO- https://raw.githubusercontent.com/TheWation/GoInstaller/main/install.sh | bash
+#    curl -fsSL https://raw.githubusercontent.com/TheWation/GoInstaller/master/install.sh | bash
+#    wget -qO- https://raw.githubusercontent.com/TheWation/GoInstaller/master/install.sh | bash
 # ============================================================
 
 set -euo pipefail

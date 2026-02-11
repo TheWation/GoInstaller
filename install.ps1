@@ -3,7 +3,7 @@
 #  Mirrors: github.com/TheWation/GoInstaller
 #
 #  Usage (Run as Administrator):
-#    irm https://raw.githubusercontent.com/TheWation/GoInstaller/main/install.ps1 | iex
+#    irm https://raw.githubusercontent.com/TheWation/GoInstaller/master/install.ps1 | iex
 #
 #  Or save and run:
 #    .\install.ps1
